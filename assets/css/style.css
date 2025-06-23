@@ -178,3 +178,17 @@ footer {
 footer a {
     color: fuchsia;
 }
+
+@media screen and (min-width: 768px) {
+    
+}
+    
+@media screen and (min-width: 1200px) {
+    table {
+
+    text-align: center;
+    }
+
+
+}
+    
