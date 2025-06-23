@@ -200,49 +200,63 @@ footer a {
 }
 
 @media screen and (min-width: 768px) {
+  table {
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+
+nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li {
+    display: inline-block;
+  }
+  
 }
 
 @media screen and (min-width: 1200px) {
-
- body {
+  body {
     width: 90%;
     margin: auto;
- }   
+  }
 
- header {
+  header {
     min-width: 100%;
     padding: 0px;
- }
+  }
 
- header div {
-
-
+  header div {
     display: inline-block;
     margin-right: auto;
     padding-left: 15px;
     text-align: left;
- }
+    padding-top: 10px;
+  }
 
- nav, section {
+  nav {
     display: inline-block;
     text-align: right;
- }
+    margin-left: auto;
+  }
 
- li {
+  li {
     display: inline-block;
- }
+  }
 
- header,div {
+  a header {
+
+    text-align: right;
+  }
+
+  header,
+  div {
     display: inline-block;
     text-align: start;
- }
-
- header, p {
-    display: inline-block;
-    
- }
-
-
+  }
 
   table {
     align-content: center;
@@ -250,18 +264,22 @@ footer a {
     margin-right: auto;
     width: 75%;
   }
-  
+
   iframe {
     display: inline-block;
-    width: 43%;
+    width: 48%;
     margin: 0px;
     padding: 0;
     vertical-align: top;
+    height: auto;
   }
-  section main {
+  section {
     display: inline-block;
-    width: 43%;
+    width: 48%;
     vertical-align: top;
+    height: auto;
+    padding: 0;
+    margin: 0;
   }
 
   aside div {
