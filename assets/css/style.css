@@ -215,7 +215,7 @@ nav {
 li {
     display: inline-block;
   }
-  
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -224,9 +224,20 @@ li {
     margin: auto;
   }
 
+  h1  {
+    font-size: 5.1rem;
+  }
+
+  h2 {
+
+    margin-top: 1rem;
+  }
+
+
   header {
     min-width: 100%;
     padding: 0px;
+    width: 50%;
   }
 
   header div {
@@ -237,11 +248,20 @@ li {
     padding-top: 10px;
   }
 
+  header p {
+    display: inline-block;
+  }
+
   nav {
     display: inline-block;
     text-align: right;
     margin-left: auto;
-  }
+    width: 50%;
+   }
+
+   ul {
+    text-align: end;
+   }
 
   li {
     display: inline-block;
